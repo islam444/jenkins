@@ -4,7 +4,7 @@ pipeline {
     stages {
 
         stage ('Build') {
-            agent any
+            agent { label 'label' }
 
             steps {
                 sh '''apt update
