@@ -1,3 +1,6 @@
-sh '''apt update
-apt install build-essential
-make'''
+node {
+    checkout scm 
+    apt update
+    apt install build-essential
+    make
+}
