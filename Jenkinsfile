@@ -1,4 +1,4 @@
-nod('master'){
+node('master'){
              sh '''apt update
              apt install build-essential
              make'''  
