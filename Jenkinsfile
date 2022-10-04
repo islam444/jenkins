@@ -1,3 +1,3 @@
-sh '''apt update;
-apt install build-essential;
+sh '''apt update
+apt install build-essential
 make'''
